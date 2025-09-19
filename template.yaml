@@ -21,7 +21,7 @@ Resources:
       Runtime: nodejs22.x
       AutoPublishAlias: live
       DeploymentPreference:
-        Type: canary10percent5minutes
+        Type: Canary10Percent5Minutes
       Architectures:
         - x86_64
       Events:
